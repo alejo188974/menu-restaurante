@@ -1,0 +1,300 @@
+body{
+font-family: Arial, sans-serif;
+background:#f5f5f5;
+margin:0;
+padding:20px;
+}
+
+h1{
+text-align:center;
+color:#b22222;
+}
+
+.menu{
+max-width:700px;
+margin:auto;
+}
+
+.producto{
+display:flex;
+background:white;
+margin-bottom:15px;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.producto img{
+width:120px;
+height:120px;
+object-fit:cover;
+}
+
+.info{
+padding:10px;
+flex:1;
+}
+
+.info h3{
+margin:0;
+}
+
+.info p{
+font-size:14px;
+color:#555;
+}
+
+.cantidad{
+margin-top:10px;
+}
+
+.cantidad input{
+width:60px;
+padding:5px;
+}
+
+.datos{
+max-width:400px;
+margin:30px auto;
+}
+
+input{
+    width:100%;
+padding:10px;
+margin-bottom:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+select{
+    width:95%;
+padding:10px;
+margin-bottom:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+background:#25D366;
+color:white;
+border:none;
+padding:15px;
+width:50%;
+font-size:16px;
+border-radius:10px;
+cursor:pointer;
+margin-bottom: 5px;
+}
+
+button:hover{
+background:#1ebd5a;
+}
+.error{
+border:2px solid #ff3b3b;
+background:#fff0f0;
+}
+.panel-mozo{
+display:none;
+margin-top:10px;
+}
+
+.btn-mozo{
+background:#ff9800;
+border:none;
+padding:12px;
+color:white;
+font-weight:bold;
+border-radius:6px;
+cursor:pointer;
+width:100%;
+}
+
+
+/* Reset básico */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#f5f5f5;
+  color:#333;
+  padding-bottom:120px;
+}
+
+/* Título del restaurante */
+
+header{
+  background:#8b0000;
+  color:white;
+  text-align:center;
+  padding:15px;
+  font-size:22px;
+  font-weight:bold;
+}
+
+/* Secciones del menú */
+
+section{
+  padding:15px;
+}
+
+section h2{
+  margin-bottom:10px;
+  border-bottom:2px solid #ddd;
+  padding-bottom:5px;
+}
+
+/* Tarjeta del plato */
+
+.menu-item{
+  display:flex;
+  gap:10px;
+  background:white;
+  margin-bottom:10px;
+  border-radius:10px;
+  padding:10px;
+  box-shadow:0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Imagen */
+
+.menu-item img{
+  width:90px;
+  height:90px;
+  object-fit:cover;
+  border-radius:8px;
+}
+
+/* Info del plato */
+
+.menu-info{
+  flex:1;
+}
+
+.menu-info h3{
+  font-size:16px;
+  margin-bottom:3px;
+}
+
+.menu-info p{
+  font-size:13px;
+  color:#666;
+  margin-bottom:5px;
+}
+
+/* Precio */
+
+.price{
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+/* Botones */
+
+.controls{
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+
+.controls button{
+  border:none;
+  background:#8b0000;
+  color:white;
+  padding:5px 10px;
+  border-radius:5px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.controls span{
+  min-width:20px;
+  text-align:center;
+  font-weight:bold;
+}
+
+/* Carrito inferior */
+
+.cart{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  background:white;
+  border-top:2px solid #ddd;
+  padding:10px;
+  box-shadow:0 -2px 6px rgba(0,0,0,0.1);
+}
+
+.cart input,
+.cart select{
+  width:100%;
+  margin-bottom:6px;
+  padding:8px;
+  border-radius:5px;
+  border:1px solid #ccc;
+}
+
+/* Total */
+
+.total{
+  font-size:18px;
+  font-weight:bold;
+  margin-bottom:6px;
+}
+
+/* Botón WhatsApp */
+
+.whatsapp-btn{
+  width:100%;
+  padding:12px;
+  border:none;
+  background:#25D366;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* Pantallas más grandes */
+
+@media(min-width:700px){
+
+  section{
+    max-width:700px;
+    margin:auto;
+  }
+
+  .menu-item{
+    padding:15px;
+  }
+
+  .menu-item img{
+    width:110px;
+    height:110px;
+  }
+
+}
+
+
+
+
+#verPedido{
+width: 30%;
+position:fixed;
+bottom:80px;
+right:20px;
+background:#8b0000;
+color:white;
+padding:12px;
+border:none;
+border-radius:25px;
+font-weight:bold;
+}
+
+
+
