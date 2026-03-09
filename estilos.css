@@ -298,3 +298,78 @@ font-weight:bold;
 
 
 
+
+.footer{
+
+margin-top:80px;
+padding:40px 20px;
+
+background:linear-gradient(135deg,#1f1f1f,#2b2b2b);
+
+color:white;
+text-align:center;
+
+border-top:3px solid #ff9800;
+
+}
+
+.footer-titulo{
+
+font-size:20px;
+margin-bottom:20px;
+letter-spacing:1px;
+
+}
+
+.footer-contacto{
+
+display:flex;
+justify-content:center;
+gap:20px;
+
+flex-wrap:wrap;
+
+margin-bottom:20px;
+
+}
+
+.btn-contacto{
+
+display:flex;
+align-items:center;
+gap:8px;
+
+text-decoration:none;
+
+color:white;
+
+background:#333;
+
+padding:12px 20px;
+
+border-radius:10px;
+
+font-weight:bold;
+
+transition:0.3s;
+
+}
+
+.btn-contacto:hover{
+
+background:#ff9800;
+
+transform:translateY(-3px) scale(1.05);
+
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+
+}
+
+.footer-copy{
+
+font-size:13px;
+opacity:0.7;
+
+}
+
+
